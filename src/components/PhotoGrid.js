@@ -1,7 +1,5 @@
 import React, {PropTypes} from 'react';
-import styles from './PhotoGrid2.css';
-import Lightbox from 'react-lightbox';
-
+import styles from './PhotoGrid.css';
 
 class PhotoGrid extends React.Component {
     static propTypes = {
@@ -10,8 +8,8 @@ class PhotoGrid extends React.Component {
         InformationElement : React.PropTypes.func
     };
 
-    constructor(...props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {
             fullScreenImage : null
         }
@@ -59,8 +57,7 @@ class PhotoGrid extends React.Component {
     };
 
     getFullScreenImage = (src) => {
-        //return null;
-        const classNames = src ? [styles.lightbox] : [styles.hide,styles.lightbox ]
+        const classNames = src ? [styles.lightbox] : [styles.hide,styles.lightbox ];
         return (
             <a href="#_" className={classNames.join(' ')} onClick={this.fullScreenImage_clickHandler.bind(this)}>
                 <img src={src} />

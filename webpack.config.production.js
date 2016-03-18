@@ -6,7 +6,7 @@ module.exports = {
 
     entry: {
         app: ["./src/app.js"],
-        vendors: ['react', 'react-dom','jquery']
+        vendors: ['react', 'react-dom','jquery','flux','events']
     },
     output: {
         path: path.join(__dirname, 'static'),
