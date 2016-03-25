@@ -16,4 +16,4 @@ Also you can see toggle|radio button group.
 
 ![Preview](http://goo.gl/JVIDu0)
 
-
+Some ideas were inspired by [react-rpg](https://github.com/James-Oldfield/react-rpg)
