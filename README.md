@@ -14,6 +14,6 @@ Also you can see toggle|radio button group.
 ```
 ## [Demo](http://lkazberova.github.io/react-photo-feed/)
 
-![Preview](http://goo.gl/JVIDu0)
+![Preview](https://s31.postimg.org/e2eejik3v/Untitled_GIF.gif)
 
 Some ideas were inspired by [react-rpg](https://github.com/James-Oldfield/react-rpg)
