@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import PhotoGrid from './PhotoGrid';
 import {InfoElement} from './DefaultInfoElement';
 import RadioButtonGroup from './RadioButtonGroup';
