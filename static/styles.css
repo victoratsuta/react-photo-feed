@@ -89,6 +89,40 @@ body {
     background-position: right;
 }
 
+.PhotoGrid__imageGridItem___hFxCm a {
+    display: none;
+    font-size: 100%;
+    color: #ffffff !important;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.PhotoGrid__imageGridItem___hFxCm:hover a, .PhotoGrid__imageGridItem___hFxCm:focus a {
+    display: block;
+}
+
+.PhotoGrid__imageGridItem___hFxCm:hover .PhotoGrid__imageWrapper___1YTK9:before, .PhotoGrid__imageGridItem___hFxCm:focus .PhotoGrid__imageWrapper___1YTK9:before {
+    display: block;
+}
+
+.PhotoGrid__imageWrapper___1YTK9:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(29, 38, 41, 0.65);
+}
 .PhotoGrid__column1___3xTvr {
     width: 100%;
     transition: all .5s linear;
@@ -131,6 +165,23 @@ body {
     transform: translate(-50%, -50%);
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     /*padding: 10px;*/
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity:0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    pointer-events:none;
+
+}
+
+.PhotoGrid__lightbox___2hnqF img.opaque {
+    opacity:1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=1);
+    pointer-events: ;
+
 }
 
 .PhotoGrid__hide___3-4dl {
@@ -146,3 +197,4 @@ h1 small {
     color:#777;
     font-weight: 400;
 }
+/*# sourceMappingURL=styles.css.map*/
