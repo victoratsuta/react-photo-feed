@@ -1,4 +1,4 @@
-.imageGridItem {
+.PhotoGrid__imageGridItem___hFxCm {
     display: inline-block;
     box-sizing: border-box;
     float: left;
@@ -8,7 +8,7 @@
     transition: all .5s linear;
     transition-delay: .1s;
 }
-.imageWrapper {
+.PhotoGrid__imageWrapper___1YTK9 {
     position: relative;
     width: 100%;
     padding-bottom: 100%;
@@ -20,11 +20,11 @@
     cursor: pointer;
     box-shadow:0 10px 6px -6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
-.imageGridItem:hover .imageWrapper{
+.PhotoGrid__imageGridItem___hFxCm:hover .PhotoGrid__imageWrapper___1YTK9{
     background-position: right;
 }
 
-.imageGridItem a {
+.PhotoGrid__imageGridItem___hFxCm a {
     display: none;
     font-size: 100%;
     color: #ffffff !important;
@@ -40,15 +40,15 @@
     text-decoration: none;
 }
 
-.imageGridItem:hover a, .imageGridItem:focus a {
+.PhotoGrid__imageGridItem___hFxCm:hover a, .PhotoGrid__imageGridItem___hFxCm:focus a {
     display: block;
 }
 
-.imageGridItem:hover .imageWrapper:before, .imageGridItem:focus .imageWrapper:before {
+.PhotoGrid__imageGridItem___hFxCm:hover .PhotoGrid__imageWrapper___1YTK9:before, .PhotoGrid__imageGridItem___hFxCm:focus .PhotoGrid__imageWrapper___1YTK9:before {
     display: block;
 }
 
-.imageWrapper:before {
+.PhotoGrid__imageWrapper___1YTK9:before {
     content: "";
     display: none;
     height: 100%;
@@ -58,11 +58,11 @@
     left: 0;
     background-color: rgba(29, 38, 41, 0.65);
 }
-.column1 {
+.PhotoGrid__column1___3xTvr {
     width: 100%;
     transition: all .5s linear;
 }
-.column1Image {
+.PhotoGrid__column1Image___2KDMR {
     float:left;
     width:30%;
     margin-right: 10px;
@@ -71,7 +71,7 @@
 }
 
 
-.lightbox {
+.PhotoGrid__lightbox___2hnqF {
     /** Default lightbox to hidden */
     /*display: block;*/
     opacity: 1;
@@ -89,7 +89,7 @@
     transition: all .5s ;
 }
 
-.lightbox img {
+.PhotoGrid__lightbox___2hnqF img {
     /** Pad the lightbox image */
     max-width: 100%;
     max-height: 100%;
@@ -111,7 +111,7 @@
 
 }
 
-.lightbox img:global(.opaque) {
+.PhotoGrid__lightbox___2hnqF img.opaque {
     opacity:1;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=1);
@@ -119,7 +119,7 @@
 
 }
 
-.hide {
+.PhotoGrid__hide___3-4dl {
      /*display:none;*/
      opacity: 0;
     visibility: hidden;
