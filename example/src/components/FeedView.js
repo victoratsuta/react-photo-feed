@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import PhotoGrid from './PhotoGrid';
-import {InfoElement} from './DefaultInfoElement';
-import RadioButtonGroup from './RadioButtonGroup';
+import PhotoGrid from './../../../src/components/PhotoGrid';
+import {InfoElement} from './../../../src/components/DefaultInfoElement';
+import RadioButtonGroup from './../../../src/components/RadioButtonGroup';
 import styles from './FeedView.css';
 
 const columnsData = [
