@@ -1,12 +1,27 @@
 # react-photo-feed
 Public photos feed from Flickr, Yandex
 
-Simple app with responsive image grid, columns customizing, one-column view with description, fullscreen preview with 
+Simple example with responsive image grid, columns customizing, one-column view with description, fullscreen preview with 
 one click.  Pure CSS for that.
+
+
+## Installation
+You can use PhotoGrid in your app, just install it from npm
+
+`npm install react-photo-feed`
+
+## Usage
 ```javascript
 <PhotoGrid photos={photos} columns={columns} InformationElement={InfoElement}/>
 ```
-`InformationElement` used for one-column view.
+### Prop Types
+| Property | Type | Required? | Description |
+|:---|:---|:---:|:---|
+| photos | Array | ✓ | Array of objects, like `[{id: 1, src: 'http://url_to_small_image', bigSrc: 'http://url_to_big_image', title: 'Caption of photo'}]` |
+| columns | Number |  | Grid columns, like `columns={1}`, also can be 2,3,5 |
+| InformationElement | Function |  | Component used for one-column view |
+
+
 
 Also you can see toggle|radio button group.
 ```javascript
