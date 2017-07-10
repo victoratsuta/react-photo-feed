@@ -1,7 +1,7 @@
 # react-photo-feed
-Public photos feed from Flickr, Yandex
+Photo gallery, example with public photos feed from Flickr, Yandex
 
-Simple example with responsive image grid, columns customizing, one-column view with description, fullscreen preview with 
+Simple example of photo gallery with responsive image grid, columns customizing, one-column view with description, fullscreen preview with 
 one click.  Pure CSS for that.
 
 

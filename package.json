@@ -1,6 +1,6 @@
 {
   "name": "react-photo-feed",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "",
   "main": "./library/photogrid.js",
   "scripts": {
@@ -8,6 +8,10 @@
     "build:example": "webpack --config webpack.config.production.js ",
     "build:lib": "webpack --progress  --colors --config webpack.config.library.js ",
     "analyze": "webpack --json --config webpack.config.library.js | webpack-bundle-size-analyzer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkazberova/react-photo-feed.git"
   },
   "author": "",
   "license": "ISC",
