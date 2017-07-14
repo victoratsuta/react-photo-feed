@@ -11,11 +11,6 @@ You can use PhotoGrid in your app, just install it from npm
 `npm install react-photo-feed`
 
 ## Usage
-```javascript
-<PhotoGrid photos={photos} columns={columns} InformationElement={InfoElement}/>
-```
-
-## Usage
 
 ````js
 import React from "react";
@@ -65,7 +60,7 @@ ReactDOM.render(
 | Property | Type | Required? | Description |
 |:---|:---|:---:|:---|
 | photos | Array | ✓ | Array of objects, like `[{id: 1, src: 'http://url_to_small_image', bigSrc: 'http://url_to_big_image', title: 'Caption of photo'}]` |
-| columns | Number |  | Grid columns, like `columns={1}`, also can be 2,3,5 |
+| columns | Number | ✓ | Grid columns, like `columns={1}`, also can be 2,3,5 |
 | InformationElement | Function |  | Component used for one-column view |
 
 
