@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import styles from "./PhotoGrid.css";
+import {DefaultInfoElement} from "./DefaultInfoElement";
 
 class PhotoGrid extends React.Component {
     static propTypes = {
@@ -42,7 +43,7 @@ class PhotoGrid extends React.Component {
     }
 
     getImageElement = (photo, index) => {
-        const {InformationElement} = this.props;
+        const InformationElement = this.props.InformationElement ? this.props.InformationElement : DefaultInfoElement;
         const classNames = this.isShowInfo() ? [styles.imageWrapper, styles.column1Image] : [styles.imageWrapper];
         const style = {backgroundImage : `url(${photo.src})`};
 

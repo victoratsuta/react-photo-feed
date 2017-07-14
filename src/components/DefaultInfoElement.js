@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './DefaultInfoElement.css';
-export const InfoElement = (props) => {
+export const DefaultInfoElement = (props) => {
     const {photo} = props;
     const date = new Date(photo.created).toLocaleString();
     return (
